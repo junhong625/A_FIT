@@ -13,7 +13,7 @@ from matplotlib.image import imread
 
 
 # In[52]:
-path = '~/mysite/home/AIPT'
+path = '/home/ubuntu/mysite/home/AIPT'
 
 def form_check(file):
     
@@ -211,7 +211,8 @@ def waist_angle(name):
     for i in num:
         if min(y) == y[i]:
             fi = i
-            num.remove(i)
+            num.remove(fi)
+            break;
     if x[num[0]] < x[num[1]]:
         se = num[0]
     else :
@@ -243,7 +244,8 @@ def knee_angle(name):
     for i in num:
         if max(y) == y[i]:
             fi = i
-            num.remove(i)
+            num.remove(fi)
+            break;
     if x[num[0]] < x[num[1]]:
         se = num[0]
     else :
@@ -275,7 +277,8 @@ def squat_angle(name):
     for i in num:
         if max(y) == y[i]:
             fi = i
-            num.remove(i)
+            num.remove(fi)
+            break;
     if x[num[0]] > x[num[1]]:
         se = num[0]
     else :
