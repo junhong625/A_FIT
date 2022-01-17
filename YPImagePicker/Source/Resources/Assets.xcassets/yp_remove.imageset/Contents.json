@@ -1,26 +1,3 @@
-{
-  "images": [
-    {
-      "filename": "yp_remove@1x.png",
-      "idiom": "universal",
-      "scale": "1x",
-      "size": "32x32"
-    },
-    {
-      "filename": "yp_remove@2x.png",
-      "idiom": "universal",
-      "scale": "2x",
-      "size": "32x32"
-    },
-    {
-      "filename": "yp_remove@3x.png",
-      "idiom": "universal",
-      "scale": "3x",
-      "size": "32x32"
-    }
-  ],
-  "info": {
-    "author": "xcode",
-    "version": 1
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e24f4e9535984bc0f9ce5c61ea166bacc4c484a0bb1e7703b2044b19e84d41b
+size 444

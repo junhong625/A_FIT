@@ -1,27 +1,3 @@
-#import <Foundation/Foundation.h>
-
-#import "MLKPoseLandmark.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-/** Describes a pose detection result. */
-NS_SWIFT_NAME(Pose)
-@interface MLKPose : NSObject
-
-/** An array of all the landmarks in the detected pose. */
-@property(nonatomic, readonly) NSArray<MLKPoseLandmark *> *landmarks;
-
-/** Unavailable. */
-- (instancetype)init NS_UNAVAILABLE;
-
-/**
- * Returns the landmark which corresponds to a given type.
- *
- * @param type The type of the landmark which should be returned.
- * @return The landmark which corresponds to `type`.
- */
-- (MLKPoseLandmark *)landmarkOfType:(MLKPoseLandmarkType)type;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:5072a7dc7c1b25aa0be33130ba754fa7c552488ec8cb9a0437625faa765feb4b
+size 651

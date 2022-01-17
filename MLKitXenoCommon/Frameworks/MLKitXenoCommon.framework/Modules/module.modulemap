@@ -1,22 +1,3 @@
-framework module MLKitXenoCommon {
-  export *
-  module * { export * }
-  link "c++"
-  link "z"
-  link framework "AVFoundation"
-  link framework "Accelerate"
-  link framework "CoreFoundation"
-  link framework "CoreGraphics"
-  link framework "CoreMedia"
-  link framework "CoreTelephony"
-  link framework "CoreVideo"
-  link framework "Foundation"
-  link framework "GLKit"
-  link framework "Metal"
-  link framework "MetalKit"
-  link framework "OpenGLES"
-  link framework "QuartzCore"
-  link framework "Security"
-  link framework "SystemConfiguration"
-  link framework "UIKit"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e7bda5e230157543d288f458f896f0fe24d9ffb70bbb6cc8b4a00749e8d60fd
+size 573

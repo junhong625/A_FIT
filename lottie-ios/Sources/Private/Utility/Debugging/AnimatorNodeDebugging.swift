@@ -1,25 +1,3 @@
-//
-//  AnimatorNodeDebugging.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/18/19.
-//
-
-import Foundation
-
-extension AnimatorNode {
-
-  func printNodeTree() {
-    parentNode?.printNodeTree()
-    print(String(describing: type(of: self)))
-
-    if let group = self as? GroupNode {
-      print("* |Children")
-      group.rootNode?.printNodeTree()
-      print("*")
-    } else {
-      print("|")
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd2e2ffe093144f126381678075d4cdb7e856345f8cdf330b957eef2e9d569a0
+size 416

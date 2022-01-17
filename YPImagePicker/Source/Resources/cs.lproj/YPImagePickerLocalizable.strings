@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Alba";
-"YPImagePickerCancel" = "Zrušit";
-"YPImagePickerCover" = "Náhled";
-"YPImagePickerCrop" = "Oříznout";
-"YPImagePickerDone" = "Hotovo";
-"YPImagePickerFilter" = "Filtr";
-"YPImagePickerLibrary" = "Knihovna";
-"YPImagePickerNext" = "Další";
-"YPImagePickerOk" = "Ok"; //ignore-same-translation-warning
-"YPImagePickerPermissionDeniedPopupCancel" = "Zrušit";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Povolit přístup";
-"YPImagePickerPermissionDeniedPopupMessage" = "Prosím, povolte přístup";
-"YPImagePickerPermissionDeniedPopupTitle" = "Přístup zakázán";
-"YPImagePickerPhoto" = "Foto";
-"YPImagePickerProcessing" = "Zpracovávání..";
-"YPImagePickerSave" = "Uložit";
-"YPImagePickerTrim" = "Oříznout";
-"YPImagePickerVideo" = "Video";
-"YPImagePickerVideoDurationTitle" = "Délka videa";
-"YPImagePickerVideoTooLong" = "Pořiďte video kratší než %@ sekund";
-"YPImagePickerVideoTooShort" = "Video musí být dlouhé alespoň %@ sekund";
-"YPImagePickerWarningItemsLimit" = "Maximální počet fotografií, nebo videí je %d";
+version https://git-lfs.github.com/spec/v1
+oid sha256:91c1ba5d2dc68f0639a798659875e7d503ee1e4e2b418a373ed42ef678e04480
+size 1078

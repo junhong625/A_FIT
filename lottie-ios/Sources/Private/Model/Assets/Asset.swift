@@ -1,33 +1,3 @@
-//
-//  Asset.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/9/19.
-//
-
-import Foundation
-
-public class Asset: Codable {
-
-  // MARK: Lifecycle
-
-  required public init(from decoder: Decoder) throws {
-    let container = try decoder.container(keyedBy: Asset.CodingKeys.self)
-    if let id = try? container.decode(String.self, forKey: .id) {
-      self.id = id
-    } else {
-      id = String(try container.decode(Int.self, forKey: .id))
-    }
-  }
-
-  // MARK: Public
-
-  /// The ID of the asset
-  public let id: String
-
-  // MARK: Private
-
-  private enum CodingKeys: String, CodingKey {
-    case id
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f01a0af243b2269c6a43b327aaa896ebb651259ba329bacc22b97d63cec982bd
+size 613

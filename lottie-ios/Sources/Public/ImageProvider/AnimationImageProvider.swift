@@ -1,23 +1,3 @@
-//
-//  LottieImageProvider.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/25/19.
-//
-
-import CoreGraphics
-import Foundation
-
-/**
- Image provider is a protocol that is used to supply images to `AnimationView`.
-
- Some animations require a reference to an image. The image provider loads and
- provides those images to the `AnimationView`.  Lottie includes a couple of
- prebuilt Image Providers that supply images from a Bundle, or from a FilePath.
-
- Additionally custom Image Providers can be made to load images from a URL,
- or to Cache images.
- */
-public protocol AnimationImageProvider {
-  func imageForAsset(asset: ImageAsset) -> CGImage?
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9920c6de381e12c4a255f8521010fbf5a69805f950471671ab1603e95096bfa2
+size 656

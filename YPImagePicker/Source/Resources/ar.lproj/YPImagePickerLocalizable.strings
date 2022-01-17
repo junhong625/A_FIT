@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "البومات";
-"YPImagePickerCancel" = "إلغاء";
-"YPImagePickerCover" = "الغلاف";
-"YPImagePickerCrop" = "قص";
-"YPImagePickerDone" = "تم";
-"YPImagePickerFilter" = "فلتر";
-"YPImagePickerLibrary" = "المكتبة";
-"YPImagePickerNext" = "التالي";
-"YPImagePickerOk" = "موافق";
-"YPImagePickerPermissionDeniedPopupCancel" = "إلغاء";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "السماح بالوصول";
-"YPImagePickerPermissionDeniedPopupMessage" = "يرجى السماح بالوصول";
-"YPImagePickerPermissionDeniedPopupTitle" = "الطلب مرفوض";
-"YPImagePickerPhoto" = "صورة";
-"YPImagePickerProcessing" = "معالجة..";
-"YPImagePickerSave" = "حفظ";
-"YPImagePickerTrim" = "قص";
-"YPImagePickerVideo" = "فيديو";
-"YPImagePickerVideoDurationTitle" = "مدة الفيديو";
-"YPImagePickerVideoTooLong" = "ثانية %@ اختار فيديو بمدة اقل من ";
-"YPImagePickerVideoTooShort" = "الفيديو يجب ان يكون على الآقل %@ ثانية";
-"YPImagePickerWarningItemsLimit" = "الحد المسموح هوه %d صورة او فيديو";
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0611b2769206c96ff437328da40afebdce279ac2ad23fbcd24d253c3676c58d
+size 1159

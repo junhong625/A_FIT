@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "相簿";
-"YPImagePickerCancel" = "取消";
-"YPImagePickerCover" = "封面";
-"YPImagePickerCrop" = "剪切";
-"YPImagePickerDone" = "完成";
-"YPImagePickerFilter" = "滤镜";
-"YPImagePickerLibrary" = "图库";
-"YPImagePickerNext" = "下一步";
-"YPImagePickerOk" = "好的";
-"YPImagePickerPermissionDeniedPopupCancel" = "取消";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "允许访问";
-"YPImagePickerPermissionDeniedPopupMessage" = "请允许访问";
-"YPImagePickerPermissionDeniedPopupTitle" = "拒绝访问";
-"YPImagePickerPhoto" = "拍照";
-"YPImagePickerProcessing" = "处理中..";
-"YPImagePickerSave" = "保存";
-"YPImagePickerTrim" = "剪辑";
-"YPImagePickerVideo" = "录像";
-"YPImagePickerVideoDurationTitle" = "视频时长";
-"YPImagePickerVideoTooLong" = "视频时长大于 %@ 秒";
-"YPImagePickerVideoTooShort" = "视频时长小于 %@ 秒";
-"YPImagePickerWarningItemsLimit" = "图片或视频的最多可选数量为 %d ";
+version https://git-lfs.github.com/spec/v1
+oid sha256:26552f0c43250c5d8007defe4036e4e23c9d67fdad73d4a3edaee5bc41e6c22d
+size 974

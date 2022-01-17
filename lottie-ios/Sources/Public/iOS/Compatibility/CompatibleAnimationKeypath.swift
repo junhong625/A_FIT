@@ -1,33 +1,3 @@
-//
-//  CompatibleAnimationKeypath.swift
-//  Lottie_iOS
-//
-//  Created by Tyler Hedrick on 3/6/19.
-//
-
-import Foundation
-#if os(iOS) || os(tvOS) || os(watchOS) || targetEnvironment(macCatalyst)
-
-/// An Objective-C compatible wrapper around Lottie's AnimationKeypath
-@objc
-public final class CompatibleAnimationKeypath: NSObject {
-
-  // MARK: Lifecycle
-
-  /// Creates a keypath from a dot separated string. The string is separated by "."
-  @objc
-  public init(keypath: String) {
-    animationKeypath = AnimationKeypath(keypath: keypath)
-  }
-
-  /// Creates a keypath from a list of strings.
-  @objc
-  public init(keys: [String]) {
-    animationKeypath = AnimationKeypath(keys: keys)
-  }
-
-  // MARK: Public
-
-  public let animationKeypath: AnimationKeypath
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba48ab14d7218467c0b1d5c4e51dbc9f47e5e7a803e7e8586edd4412ed47dc16
+size 761

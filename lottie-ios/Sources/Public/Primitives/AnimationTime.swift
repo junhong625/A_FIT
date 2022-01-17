@@ -1,15 +1,3 @@
-//
-//  AnimationTime.swift
-//  lottie-swift-iOS
-//
-//  Created by Brandon Withrow on 2/6/19.
-//
-
-import CoreGraphics
-import Foundation
-
-/// Defines animation time in Frames (Seconds * Framerate).
-public typealias AnimationFrameTime = CGFloat
-
-/// Defines animation time by a progress from 0 (beginning of the animation) to 1 (end of the animation)
-public typealias AnimationProgressTime = CGFloat
+version https://git-lfs.github.com/spec/v1
+oid sha256:083760ce0108f18c24fd9db6d204965ac6db5dc2a66d66f9799d5516d6515fb5
+size 397

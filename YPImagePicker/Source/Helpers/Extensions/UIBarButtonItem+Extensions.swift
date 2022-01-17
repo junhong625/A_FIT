@@ -1,18 +1,3 @@
-//
-//  UIBarButtonItem+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Sebastiaan Seegers on 02/03/2020.
-//  Copyright © 2020 Yummypets. All rights reserved.
-//
-
-import UIKit
-import Foundation
-
-extension UIBarButtonItem {
-
-    func setFont(font: UIFont?, forState state: UIControl.State) {
-        guard font != nil else { return }
-        self.setTitleTextAttributes([NSAttributedString.Key.font: font!], for: .normal)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ca585d344be95b1210a40a4383bcadac0f80d1abb8ca7894d64d7b138e41a7d
+size 434

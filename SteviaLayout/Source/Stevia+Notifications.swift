@@ -1,22 +1,3 @@
-//
-//  Stevia+Notifications.swift
-//  LoginStevia
-//
-//  Created by Sacha Durand Saint Omer on 12/10/15.
-//  Copyright © 2015 Sacha Durand Saint Omer. All rights reserved.
-//
-
-#if canImport(UIKit)
-import UIKit
-
-public extension NSObject {
-    
-    func on(_ event: String, _ callback:@escaping () -> Void) {
-        _ = NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: event),
-                                                                object: nil,
-                                                                queue: nil) { _ in
-            callback()
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:f937361b909fdee88cc22ce8229519136ee6683f387eaf89388afa15339e9078
+size 615

@@ -1,26 +1,3 @@
-//
-//  AnyValueContainer.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/30/19.
-//
-
-import CoreGraphics
-import Foundation
-
-/// The container for the value of a property.
-protocol AnyValueContainer: AnyObject {
-
-  /// The stored value of the container
-  var value: Any { get }
-
-  /// Notifies the provider that it should update its container
-  func setNeedsUpdate()
-
-  /// When true the container needs to have its value updated by its provider
-  var needsUpdate: Bool { get }
-
-  /// The frame time of the last provided update
-  var lastUpdateFrame: CGFloat { get }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:03454f5c9c2583977c5ebb8aada3f72831bbcb70bc84be741ea184dcde291210
+size 582

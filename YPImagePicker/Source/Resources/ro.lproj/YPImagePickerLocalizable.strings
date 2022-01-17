@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Albume";
-"YPImagePickerCancel" = "Anulare";
-"YPImagePickerCover" = "Cover";
-"YPImagePickerCrop" = "Decupează";
-"YPImagePickerDone" = "Comite";
-"YPImagePickerFilter" = "Filtru";
-"YPImagePickerLibrary" = "Bibliotecă";
-"YPImagePickerNext" = "Următorul";
-"YPImagePickerOk" = "Ok"; //ignore-same-translation-warning
-"YPImagePickerPermissionDeniedPopupCancel" = "Anulare";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Permisie garantată";
-"YPImagePickerPermissionDeniedPopupMessage" = "Vă rugăm să permiteti accesul";
-"YPImagePickerPermissionDeniedPopupTitle" = "Acces refuzat";
-"YPImagePickerPhoto" = "Fotografie";
-"YPImagePickerProcessing" = "Prelucrare..";
-"YPImagePickerSave" = "Salvează";
-"YPImagePickerTrim" = "Taie";
-"YPImagePickerVideo" = "Video"; //ignore-same-translation-warning
-"YPImagePickerVideoDurationTitle" = "Durata videoclipului";
-"YPImagePickerVideoTooLong" = " Alegeți un videoclip cu mai puțin de %@ secunde";
-"YPImagePickerVideoTooShort" = "Videoclipul trebuie să aibă cel puțin %@ secunde";
-"YPImagePickerWarningItemsLimit" = "Limita este de %d fotografii sau videoclipuri";
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5ea702c6ab056f10b7c6cc9c0db6a0f8a9d79a03daacccef8f48a187fdccdfb
+size 1141

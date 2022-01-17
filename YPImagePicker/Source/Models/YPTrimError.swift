@@ -1,19 +1,3 @@
-//
-//  YPTrimError.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 23.04.2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import Foundation
-
-struct YPTrimError: Error {
-    let description: String
-    let underlyingError: Error?
-    
-    init(_ description: String, underlyingError: Error? = nil) {
-        self.description = "TrimVideo: " + description
-        self.underlyingError = underlyingError
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc8afaa2ba78c31ea4873f60deb01a0ff4af1026eb2aabbce5c2968d05b0142c
+size 429

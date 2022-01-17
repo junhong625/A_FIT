@@ -1,28 +1,3 @@
-//
-//  NullCompositionLayer.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/25/19.
-//
-
-import Foundation
-
-final class NullCompositionLayer: CompositionLayer {
-
-  init(layer: LayerModel) {
-    super.init(layer: layer, size: .zero)
-  }
-
-  required init?(coder _: NSCoder) {
-    fatalError("init(coder:) has not been implemented")
-  }
-
-  override init(layer: Any) {
-    /// Used for creating shadow model layers. Read More here: https://developer.apple.com/documentation/quartzcore/calayer/1410842-init
-    guard let layer = layer as? NullCompositionLayer else {
-      fatalError("init(layer:) Wrong Layer Class")
-    }
-    super.init(layer: layer)
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c7c2f16e63cc47b528fc0802e5d02943f80a5e5a9a7d241f68a33539b7ae471
+size 667

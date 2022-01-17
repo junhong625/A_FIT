@@ -1,23 +1,3 @@
-//
-//  NSFileManager+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 23.04.2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import Foundation
-
-extension FileManager {
-    func removeFileIfNecessary(at url: URL) throws {
-        guard fileExists(atPath: url.path) else {
-            return
-        }
-        
-        do {
-            try removeItem(at: url)
-        } catch let error {
-            throw YPTrimError("Couldn't remove existing destination file: \(error)")
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cef39b2025dc6e41c5de78418c6d3965d08d493a794274e95265f647a5a20c1e
+size 519

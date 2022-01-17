@@ -1,20 +1,3 @@
-//
-//  IndexSet+IndexPath.swift
-//  YPImagePicker
-//
-//  Created by Sacha DSO on 26/01/2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import Foundation
-
-internal extension IndexSet {
-    func aapl_indexPathsFromIndexesWithSection(_ section: Int) -> [IndexPath] {
-        var indexPaths: [IndexPath] = []
-        indexPaths.reserveCapacity(count)
-        (self as NSIndexSet).enumerate({idx, _ in
-            indexPaths.append(IndexPath(item: idx, section: section))
-        })
-        return indexPaths
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:944ce66b4419fbafdde062b3076483e997df2f326627427ab9eeafa52d2eab34
+size 528

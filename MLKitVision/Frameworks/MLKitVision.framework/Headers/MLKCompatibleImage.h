@@ -1,15 +1,3 @@
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-/**
- * A protocol for indicating images that are compatible with ML Kit.
- *
- * Don’t implement this protocol yourself; instead, use `MLImage` to create an
- * `MLKitCompatibleImage`.
- */
-NS_SWIFT_NAME(MLKitCompatibleImage)
-@protocol MLKCompatibleImage <NSObject>
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c2d8f7be0ac559f909b18b6ac23f82b9e563a08ff9f30437e694bb54722e5ba
+size 352

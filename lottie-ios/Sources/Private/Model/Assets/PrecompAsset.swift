@@ -1,34 +1,3 @@
-//
-//  PrecompAsset.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/9/19.
-//
-
-import Foundation
-
-final class PrecompAsset: Asset {
-
-  // MARK: Lifecycle
-
-  required init(from decoder: Decoder) throws {
-    let container = try decoder.container(keyedBy: PrecompAsset.CodingKeys.self)
-    layers = try container.decode([LayerModel].self, ofFamily: LayerType.self, forKey: .layers)
-    try super.init(from: decoder)
-  }
-
-  // MARK: Internal
-
-  enum CodingKeys: String, CodingKey {
-    case layers
-  }
-
-  /// Layers of the precomp
-  let layers: [LayerModel]
-
-  override func encode(to encoder: Encoder) throws {
-    try super.encode(to: encoder)
-    var container = encoder.container(keyedBy: CodingKeys.self)
-    try container.encode(layers, forKey: .layers)
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8298a54b435c4a0ad3e2eb93aced63ab8ec47b3de9653236d4cd50b4b713e9c3
+size 776

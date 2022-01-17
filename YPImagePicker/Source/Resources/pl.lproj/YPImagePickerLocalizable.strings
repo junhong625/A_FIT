@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Albumy";
-"YPImagePickerCancel" = "Anuluj";
-"YPImagePickerCover" = "Okładka";
-"YPImagePickerCrop" = "Przytnij";
-"YPImagePickerDone" = "Gotowe";
-"YPImagePickerFilter" = "Filtr";
-"YPImagePickerLibrary" = "Biblioteka";
-"YPImagePickerNext" = "Następny";
-"YPImagePickerOk" = "Ok";
-"YPImagePickerPermissionDeniedPopupCancel" = "Anuluj";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Zezwól";
-"YPImagePickerPermissionDeniedPopupMessage" = "Proszę zezwól na dostęp";
-"YPImagePickerPermissionDeniedPopupTitle" = "Nie zezwolono na dostęp";
-"YPImagePickerPhoto" = "Zdjęcie";
-"YPImagePickerProcessing" = "Przetwarzanie..";
-"YPImagePickerSave" = "Zapisz";
-"YPImagePickerTrim" = "Przytnij";
-"YPImagePickerVideo" = "Film";
-"YPImagePickerVideoDurationTitle" = "Długość filmu";
-"YPImagePickerVideoTooLong" = "Wybierz film krótszy niż %@ s.";
-"YPImagePickerVideoTooShort" = "Film musi mieć długość co najmniej %@ s.";
-"YPImagePickerWarningItemsLimit" = "Limit zdjęć lub filmów to %d";
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef6acd4816221ea66fdb4ffdb8751ccbab6e5dc4a1a31758160ee2c47d7e22fa
+size 1020

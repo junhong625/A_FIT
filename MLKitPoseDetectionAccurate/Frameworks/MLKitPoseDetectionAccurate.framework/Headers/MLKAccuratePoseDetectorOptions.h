@@ -1,17 +1,3 @@
-#import <Foundation/Foundation.h>
-
-
-#import <MLKitPoseDetectionCommon/MLKCommonPoseDetectorOptions.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-/** Options for specifying a pose detector with more accurate, but larger and slower models. */
-NS_SWIFT_NAME(AccuratePoseDetectorOptions)
-@interface MLKAccuratePoseDetectorOptions : MLKCommonPoseDetectorOptions
-
-/** Creates a new instance. */
-- (instancetype)init NS_DESIGNATED_INITIALIZER;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:d804891c0fe5e01f1158c3513fd6ac5a2c79608a679cb0dc51c2019137cc3a38
+size 449

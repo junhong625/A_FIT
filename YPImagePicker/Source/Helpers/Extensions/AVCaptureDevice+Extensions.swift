@@ -1,35 +1,3 @@
-//
-//  AVCaptureDevice+Extensions.swift
-//
-//  Created by Nik Kov on 23.04.2018.
-//  Copyright © 2018 Octopepper. All rights reserved.
-//
-
-import AVFoundation
-
-extension AVCaptureDevice {
-    func tryToggleTorch() {
-        guard hasFlash else {
-            return
-        }
-
-        do {
-            try lockForConfiguration()
-
-            switch torchMode {
-            case .auto:
-                torchMode = .on
-            case .on:
-                torchMode = .off
-            case .off:
-                torchMode = .auto
-            @unknown default:
-                throw YPError.custom(message: "unknown default case")
-            }
-
-            unlockForConfiguration()
-        } catch {
-            ypLog("Error with torch \(error).")
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f36c1d9ffe5fcec2a414134d76ec65e6fd9e2069fbad55bbc34c83a8a4e12736
+size 765

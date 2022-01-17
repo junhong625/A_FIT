@@ -1,31 +1,3 @@
-//
-//  YPAlbumView.swift
-//  YPImagePicker
-//
-//  Created by Sacha Durand Saint Omer on 20/07/2017.
-//  Copyright © 2017 Yummypets. All rights reserved.
-//
-
-import UIKit
-import Stevia
-
-class YPAlbumView: UIView {
-    
-    let tableView = UITableView()
-    let spinner = UIActivityIndicatorView(style: .gray)
-    
-    convenience init() {
-        self.init(frame: .zero)
-        
-        sv(
-            tableView,
-            spinner
-        )
-        // TableView needs to be the first subview for it to automatically adjust its content inset with the NavBar
-        
-        spinner.centerInContainer()
-        tableView.fillContainer()
-        
-        backgroundColor = .ypSystemBackground
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb668e6c0201022c4fc6967776364b8022587dd824842a781a481475d228eb0c
+size 703

@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Albümler";
-"YPImagePickerCancel" = "İptal";
-"YPImagePickerCover" = "Kapak";
-"YPImagePickerCrop" = "Kırp";
-"YPImagePickerDone" = "Bitti";
-"YPImagePickerFilter" = "Filtrele";
-"YPImagePickerLibrary" = "Kütüphane";
-"YPImagePickerNext" = "İleri";
-"YPImagePickerOk" = "Bitti";
-"YPImagePickerPermissionDeniedPopupCancel" = "İptal";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Erişime İzin Ver";
-"YPImagePickerPermissionDeniedPopupMessage" = "Lütfen erişime izin ver";
-"YPImagePickerPermissionDeniedPopupTitle" = "Erişim izni reddedildi";
-"YPImagePickerPhoto" = "Fotoğraf";
-"YPImagePickerProcessing" = "İşleniyor..";
-"YPImagePickerSave" = "Kaydet";
-"YPImagePickerTrim" = "Kes";
-"YPImagePickerVideo" = "Video"; //ignore-same-translation-warning
-"YPImagePickerVideoDurationTitle" = "Video uzunluğu";
-"YPImagePickerVideoTooLong" = "%@ saniyeden daha kısa bir video seç";
-"YPImagePickerVideoTooShort" = "Videolar en az %@ saniye uzunluğunda olmalıdır";
-"YPImagePickerWarningItemsLimit" = "Sınır %d fotoğraf veya videodur";
+version https://git-lfs.github.com/spec/v1
+oid sha256:7058510665e2f5142924bda0bd5d7c36fbbf6ac4c7d6852393c8482169b08d72
+size 1070

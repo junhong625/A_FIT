@@ -1,31 +1,3 @@
-//
-//  CIImage+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 21.07.2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import UIKit
-
-internal extension CIImage {
-    func toUIImage() -> UIImage {
-        /*
-			If need to reduce the process time, than use next code.
-			But ot produce a bug with wrong filling in the simulator.
-			return UIImage(ciImage: self)
-         */
-        let context: CIContext = CIContext.init(options: nil)
-        let cgImage: CGImage = context.createCGImage(self, from: self.extent)!
-        let image: UIImage = UIImage(cgImage: cgImage)
-        return image
-    }
-    
-    func toCGImage() -> CGImage? {
-        let context = CIContext(options: nil)
-        if let cgImage = context.createCGImage(self, from: self.extent) {
-            return cgImage
-        }
-        return nil
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0acffab1c287eb79710b73bd872d01330e2939fd192fa78246dbbf373dabf44f
+size 849

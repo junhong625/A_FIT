@@ -1,18 +1,3 @@
-//
-//  UINavigationBar+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Sebastiaan Seegers on 02/03/2020.
-//  Copyright © 2020 Yummypets. All rights reserved.
-//
-
-import UIKit
-import Foundation
-
-extension UINavigationBar {
-
-    func setTitleFont(font: UIFont?) {
-        guard let font = font  else { return }
-        self.titleTextAttributes = [NSAttributedString.Key.font: font]
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0df460b2a92fa8b14b6f1cb1fda33deadb7db8f565a78ab4d3fcc43c6e575a24
+size 394

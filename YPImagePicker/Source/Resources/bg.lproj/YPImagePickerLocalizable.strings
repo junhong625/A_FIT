@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Албуми";
-"YPImagePickerCancel" = "Отказ";
-"YPImagePickerCover" = "Обложка";
-"YPImagePickerCrop" = "Изрязване";
-"YPImagePickerDone" = "Готово";
-"YPImagePickerFilter" = "Филтър";
-"YPImagePickerLibrary" = "Библиотека";
-"YPImagePickerNext" = "Напред";
-"YPImagePickerOk" = "OK"; //ignore-same-translation-warning
-"YPImagePickerPermissionDeniedPopupCancel" = "Отказ";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Разреши достъпа";
-"YPImagePickerPermissionDeniedPopupMessage" = "Моля разрешете достъпа";
-"YPImagePickerPermissionDeniedPopupTitle" = "Достъпът е отказан";
-"YPImagePickerPhoto" = "Снимка";
-"YPImagePickerProcessing" = "Обработка..";
-"YPImagePickerSave" = "Запази";
-"YPImagePickerTrim" = "Изрежи";
-"YPImagePickerVideo" = "Видео";
-"YPImagePickerVideoDurationTitle" = "Продължителност на видеото";
-"YPImagePickerVideoTooLong" = "Изберете видео по-късо от %@ секунди";
-"YPImagePickerVideoTooShort" = "Видеото трябва да бъде поне %@ секунди";
-"YPImagePickerWarningItemsLimit" = "Лимитът е %d снимки или клипове";
+version https://git-lfs.github.com/spec/v1
+oid sha256:f449ebe3130f1b02b68b5f870f05f3604f8251e07d64a7189fb24fef20e38471
+size 1296

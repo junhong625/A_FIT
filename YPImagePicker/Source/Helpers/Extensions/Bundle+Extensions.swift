@@ -1,21 +1,3 @@
-//
-//  Bundle+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 19.09.2021.
-//  Copyright © 2021 Yummypets. All rights reserved.
-//
-
-import UIKit
-
-extension Bundle {
-    static var local: Bundle {
-        #if SWIFT_PACKAGE
-        return Bundle.module
-        #else
-        return Bundle(for: BundleToken.self)
-        #endif
-    }
-}
-
-private class BundleToken {}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4ae4468e5dad0d6d6424bbe19863c24499cc8dcd5e755d8c0b1f42768b8ecc7
+size 379

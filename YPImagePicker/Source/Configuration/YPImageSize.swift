@@ -1,15 +1,3 @@
-//
-//  YPImageSize.swift
-//  YPImagePicker
-//
-//  Created by Sacha DSO on 24/01/2018.
-//  Copyright © 2016 Yummypets. All rights reserved.
-//
-
-import Foundation
-import AVFoundation
-
-public enum YPImageSize {
-    case original
-    case cappedTo(size: CGFloat)
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0405169576b2641916bc19821ae228267120957ed33fbb827e792b3b8b69662
+size 262

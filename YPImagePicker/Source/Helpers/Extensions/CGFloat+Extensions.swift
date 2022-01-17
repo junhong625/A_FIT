@@ -1,21 +1,3 @@
-//
-//  CGFloat+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 16.05.2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import UIKit
-
-infix operator &/
-
-// With that you can devide to zero
-extension CGFloat {
-    public static func &/ (lhs: CGFloat, rhs: CGFloat) -> CGFloat {
-        if rhs == 0 {
-            return 0
-        }
-        return lhs/rhs
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de8fb0bd961eb4bf9fb553ab3b97d5dc8eb1a43b22dc83c70e06a59773d452eb
+size 390

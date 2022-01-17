@@ -1,21 +1,3 @@
-//
-//  AVFileType+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 23.04.2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import AVFoundation
-import MobileCoreServices
-
-extension AVFileType {
-    /// Fetch and extension for a file from UTI string
-    var fileExtension: String {
-        if let ext = UTTypeCopyPreferredTagWithClass(self as CFString,
-													 kUTTagClassFilenameExtension)?.takeRetainedValue() {
-            return ext as String
-        }
-        return "None"
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccb562c1e5e3b2cbd8f2791df5fcf2911d8829010d28cf8e8b64e1bfa900b1b7
+size 520

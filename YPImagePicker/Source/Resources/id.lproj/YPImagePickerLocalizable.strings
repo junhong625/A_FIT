@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Galeri";
-"YPImagePickerCancel" = "Batal";
-"YPImagePickerCover" = "Sampul";
-"YPImagePickerCrop" = "Sesuaikan";
-"YPImagePickerDone" = "Selesai";
-"YPImagePickerFilter" = "Filter"; //ignore-same-translation-warning
-"YPImagePickerLibrary" = "Perpustakaan";
-"YPImagePickerNext" = "Selanjutnya";
-"YPImagePickerOk" = "Oke";
-"YPImagePickerPermissionDeniedPopupCancel" = "Batal";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Izinkan";
-"YPImagePickerPermissionDeniedPopupMessage" = "Tolong izinkan akses";
-"YPImagePickerPermissionDeniedPopupTitle" = "Izin ditolak";
-"YPImagePickerPhoto" = "Foto";
-"YPImagePickerProcessing" = "Memproses..";
-"YPImagePickerSave" = "Simpan";
-"YPImagePickerTrim" = "Potong";
-"YPImagePickerVideo" = "Video"; //ignore-same-translation-warning
-"YPImagePickerVideoDurationTitle" = "Durasi video";
-"YPImagePickerVideoTooLong" = "Pilih durasi video kurang dari %@ detik";
-"YPImagePickerVideoTooShort" = " Durasi video setidaknya %@ detik";
-"YPImagePickerWarningItemsLimit" = "Hanya diperbolehkan %d foto atau video";
+version https://git-lfs.github.com/spec/v1
+oid sha256:276b754af72ab079c3cbf40fa4f3f9bf87a05e906feb3e81c4efd9aa65c6c346
+size 1063

@@ -1,20 +1,3 @@
-//
-//  AnimationSubview.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 2/4/19.
-//
-
-import Foundation
-#if os(iOS) || os(tvOS) || os(watchOS) || targetEnvironment(macCatalyst)
-import UIKit
-
-/// A view that can be added to a keypath of an AnimationView
-public final class AnimationSubview: UIView {
-
-  var viewLayer: CALayer? {
-    layer
-  }
-
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:223a94cbd99eb1401ce9acef53d615a085b992e0a82303d90efa07b5559ea798
+size 362

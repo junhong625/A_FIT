@@ -1,21 +1,3 @@
-//
-//  UIColorExtension.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 2/4/19.
-//
-
-import Foundation
-#if os(iOS) || os(tvOS) || os(watchOS) || targetEnvironment(macCatalyst)
-import UIKit
-
-extension UIColor {
-
-  public var lottieColorValue: Color {
-    var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
-    getRed(&r, green: &g, blue: &b, alpha: &a)
-    return Color(r: Double(r), g: Double(g), b: Double(b), a: Double(a))
-  }
-
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae25bb0c06d72c9372bbad1f387d51fd48b88304526afeb4b217810f02fa4c38
+size 466

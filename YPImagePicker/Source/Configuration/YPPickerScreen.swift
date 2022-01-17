@@ -1,15 +1,3 @@
-//
-//  YPPickerScreen.swift
-//  YPImagePicker
-//
-//  Created by Sacha DSO on 24/01/2018.
-//  Copyright © 2016 Yummypets. All rights reserved.
-//
-
-import Foundation
-
-public enum YPPickerScreen {
-    case library
-    case photo
-    case video
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bef0bd32454145085fa5ff0178585c9af3e91067cc29b43aeb51390a25108d88
+size 244

@@ -1,22 +1,3 @@
-"YPImagePickerAlbums" = "Album";
-"YPImagePickerCancel" = "Avbryt";
-"YPImagePickerCover" = "Täck";
-"YPImagePickerCrop" = "Beskär";
-"YPImagePickerDone" = "Klar";
-"YPImagePickerFilter" = "Filter";
-"YPImagePickerLibrary" = "Bibliotek";
-"YPImagePickerNext" = "Nästa";
-"YPImagePickerOk" = "Ok";
-"YPImagePickerPermissionDeniedPopupCancel" = "Avbryt";
-"YPImagePickerPermissionDeniedPopupGrantPermission" = "Ge tillåtelse";
-"YPImagePickerPermissionDeniedPopupMessage" = "Vänligen ge tillåtelse";
-"YPImagePickerPermissionDeniedPopupTitle" = "Åtkomst nekad";
-"YPImagePickerPhoto" = "Foto";
-"YPImagePickerProcessing" = "Bearbetar..";
-"YPImagePickerSave" = "Spara";
-"YPImagePickerTrim" = "Trim";
-"YPImagePickerVideo" = "Video";
-"YPImagePickerVideoDurationTitle" = "Videolängd";
-"YPImagePickerVideoTooLong" = "Välj en video som är kortare än %@ sekunder";
-"YPImagePickerVideoTooShort" = "Videon måste vara minst %@ sekunder";
-"YPImagePickerWarningItemsLimit" = "Välj maximalt %d bilder/videor";
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b717400ac8c0a9c725fb4b30dbfa8a85f1586db7b31b6292051709954062c65
+size 994

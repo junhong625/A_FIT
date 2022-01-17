@@ -1,5 +1,3 @@
-${PODS_ROOT}/Target Support Files/Pods-Afit/Pods-Afit-resources.sh
-${PODS_CONFIGURATION_BUILD_DIR}/MLKitPoseDetection/MLKitPoseDetectionFastResources.bundle
-${PODS_CONFIGURATION_BUILD_DIR}/MLKitPoseDetectionAccurate/MLKitPoseDetectionAccurateResources.bundle
-${PODS_CONFIGURATION_BUILD_DIR}/MLKitPoseDetectionCommon/MLKitPoseDetectionCommonResources.bundle
-${PODS_CONFIGURATION_BUILD_DIR}/MLKitXenoCommon/MLKitXenoResources.bundle
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b5d1fbe1ba847f1a9e07991517ad1168f7826dbb96bca7e0fadd85bd43d6150
+size 430

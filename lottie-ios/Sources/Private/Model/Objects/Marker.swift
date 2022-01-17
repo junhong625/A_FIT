@@ -1,23 +1,3 @@
-//
-//  Marker.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 1/9/19.
-//
-
-import Foundation
-
-/// A time marker
-final class Marker: Codable {
-
-  enum CodingKeys: String, CodingKey {
-    case name = "cm"
-    case frameTime = "tm"
-  }
-
-  /// The Marker Name
-  let name: String
-
-  /// The Frame time of the marker
-  let frameTime: AnimationFrameTime
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8384804bc5d344a1ad042a10c09a1e61a42b7e0ec3b0292c4f8dcf8ade750d9b
+size 360

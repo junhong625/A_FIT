@@ -1,24 +1,3 @@
-//
-//  AnimationCacheProvider.swift
-//  lottie-swift
-//
-//  Created by Brandon Withrow on 2/5/19.
-//
-
-import Foundation
-/**
- `AnimationCacheProvider` is a protocol that describes an Animation Cache.
- Animation Cache is used when loading `Animation` models. Using an Animation Cache
- can increase performance when loading an animation multiple times.
-
- Lottie comes with a prebuilt LRU Animation Cache.
- */
-public protocol AnimationCacheProvider {
-
-  func animation(forKey: String) -> Animation?
-
-  func setAnimation(_ animation: Animation, forKey: String)
-
-  func clearCache()
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f98dd7ad2d83bc2cfca095e62c69b10079b5e54e3f60fe56417bac5aaeea709
+size 580

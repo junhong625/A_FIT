@@ -1,21 +1,3 @@
-//
-//  AVPlayer+Extensions.swift
-//  YPImagePicker
-//
-//  Created by Nik Kov on 23.04.2018.
-//  Copyright © 2018 Yummypets. All rights reserved.
-//
-
-import AVFoundation
-
-extension AVPlayer {
-    func togglePlayPause(completion: (_ isPlaying: Bool) -> Void) {
-        if rate == 0 {
-            play()
-            completion(true)
-        } else {
-            pause()
-            completion(false)
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75ba396fb8c37a68c8f2710e3b86256eb64d74abd466915edf20f3f5051f5c84
+size 416

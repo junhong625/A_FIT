@@ -1,19 +1,3 @@
-//
-//  YPLibraryViewDelegate.swift
-//  YPImagePicker
-//
-//  Created by Sacha DSO on 26/01/2018.
-//  Copyright © 2016 Yummypets. All rights reserved.
-//
-
-import Foundation
-
-@objc
-public protocol YPLibraryViewDelegate: AnyObject {
-    func libraryViewDidTapNext()
-    func libraryViewStartedLoadingImage()
-    func libraryViewFinishedLoading()
-    func libraryViewDidToggleMultipleSelection(enabled: Bool)
-    func libraryViewShouldAddToSelection(indexPath: IndexPath, numSelections: Int) -> Bool
-    func libraryViewHaveNoItems()
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:22d42c51f2ee2282e6a9189c49621caf1cdb76bac2ae3ab4e14684568a4b80b5
+size 532
