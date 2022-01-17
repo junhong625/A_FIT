@@ -1,0 +1,6 @@
+framework module Pods_Afit {
+  umbrella header "Pods-Afit-umbrella.h"
+
+  export *
+  module * { export * }
+}
