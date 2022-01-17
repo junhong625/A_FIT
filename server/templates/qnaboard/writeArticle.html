@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>새 글 쓰기</title>
+
+    <script>
+    //뒤로가기
+        function backToList(obj){
+        //노티스보드.인덱스로보낸다.
+            obj.action="{% url 'qnaboard:index' %}";
+            obj.submit();
+        }
+    </script>
+</head>
+<body>
+    <h1 style = "text-align:center"> 문의 글 쓰기</h1>
+    <hr>
+    <!-- action: 실제 url 주소 필요. 어디로보낼건지.-->
+		<!-- 실행되지않으면 아랫줄 action="{% url 'qnaboard:add_article' %}" 일시제거.-->
+    <form name = "articleForm" method="post" action="{% url 'qnaboard:add_article' %}">
+        {% csrf_token %} <!-- 폼 태그만들었을때 토큰을 꼭 넣어줘야함, (보안상의문제. 내가보내는것이라고확인하는용.)-->
+        <table border="0" align="center">
+            <tbody>
+            <!--글제목-->
+                <tr>
+                    <td align="right">글제목:</td>
+                    <td colspan="2"><input type="text" size="60" maxlength="100" name="title"/></td>
+                </tr>
+            <!-- 이메일-->
+              <tr>
+                    <td align="right">수신받을 email:</td>
+                    <td colspan="2"><input type="text" size="60" maxlength="100" name="email"/></td>
+                </tr>
+            <!--글내용-->
+                <tr>
+                    <td align="right" valign="top"><br>글내용:</td>
+                    <td colspan="2"><textarea name="content" rows="10" cols="65" maxlength="2000"></textarea> </td>
+                </tr>
+            <!--글쓰기, 뒤로가기 버튼-->
+                <tr>
+                    <td align="right"></td>
+                    <td colspan="2">
+                        <input type="submit" value="글쓰기"/>
+                        <input type="button" value="목록보기" onclick="backToList(this.form)"/></td>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
