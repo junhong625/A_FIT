@@ -72,9 +72,9 @@ def skel(file):
             #각 리스트에 생성된 좌표 값 입력
             results = holistic.process(image)
             R_WRIST.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.RIGHT_WRIST])
-            L_WRIST.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.RIGHT_WRIST])
+            L_WRIST.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.LEFT_WRIST])
             R_ELBOW.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.RIGHT_ELBOW])
-            L_ELBOW.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.RIGHT_ELBOW])
+            L_ELBOW.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.LEFT_ELBOW])
             R_HIP.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.RIGHT_HIP])
             L_HIP.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.LEFT_HIP])
             R_SHOULDER.append(results.pose_landmarks.landmark[mp_holistic.PoseLandmark.RIGHT_SHOULDER])
