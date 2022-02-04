@@ -4,11 +4,8 @@ import matplotlib.pyplot as plt # pip install matplotlib
 import numpy as np # pip install numpy
 import os
 import glob
-import tensorflow as tf # pip install tensorflow | or | conda install tensorflow
-from sklearn.model_selection import train_test_split # pip install sckit-learn
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
-from tensorflow.keras.optimizers import Adam
+
+
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 from tqdm import tqdm # pip install tqdm
@@ -18,7 +15,7 @@ class_name=['squat', 'plank', 'stand'] # 분류할 자세 이름 설정
 lst_dir=[] # 이미지 파일이 들어있는 폴더이름 목록이 들어갈 리스트
 lst_im=[] # 이미지 파일들이 들어갈 리스트
 
-for name in class_name: # for문을 거쳐 squat, plank, stand 폴더에 들어있는 이미지 파일들의 사이즈를 weight=400, height=400으로 변경
+for name in class_name: # for문을 거쳐 squat, plank, stand 폴더에 들어있는 이미지 파일들의 사이즈를 width=400, height=400으로 변경
     lst_dir=os.listdir('D:/skel/%s'%name)
     for j in lst_dir:
         b=cv2.imread('D:/skel/%s/%s'%(name, j))
