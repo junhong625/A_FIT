@@ -34,6 +34,7 @@ for i in range(len(lst_im)): # for문을 통해 각 자세 폴더에 들어있�
         lst_label.append([0,1,0])
     else :
         lst_label.append([0,0,1])
+        
 # 이미지와 라벨 둘 다 배열로 변환
 lst_im=np.array(lst_im) 
 lst_label=np.array(lst_label) 
