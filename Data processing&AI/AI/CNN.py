@@ -22,7 +22,7 @@ for name in class_name: # for문을 거쳐 squat, plank, stand 폴더에 들어�
     lst_dir=os.listdir('D:/skel/%s'%name)
     for j in lst_dir:
         b=cv2.imread('D:/skel/%s/%s'%(name, j))
-        b=cv2.resize(b,(400,400))
+        b=cv2.resize(b,(600,600))
         lst_im.append(np.array(b))
 
 squat_size = len(os.listdir('D:/skel/squat')) # squat 폴더에 들어있는 이미지 개수
@@ -67,7 +67,7 @@ y_val.shape
 # 직접 실험을 해보며 최적의 결과물을 뽑아낼 수 있도록 argument나 세팅값을 잘 설정해야함 
 #------------------------------------------------------------------------------------------------------
 model=Sequential()
-model.add(Conv2D(filters=50,kernel_size=3,padding='same',activation='LeakyReLU',input_shape=(400,400,3)))
+model.add(Conv2D(filters=50,kernel_size=3,padding='same',activation='LeakyReLU',input_shape=(600,600,3)))
 model.add(Conv2D(filters=40,kernel_size=3,padding='same',activation='LeakyReLU'))
 model.add(MaxPool2D(pool_size=(4,4)))
 model.add(Conv2D(filters=40,kernel_size=3,padding='same',activation='LeakyReLU'))
@@ -99,8 +99,8 @@ print('predictions shape:', predictions.shape) #
 predictions
 
 caltech_dir = "D:/image_test" # 학습에 사용되지 않은 새로운 이미지이 저장된 디렉토리
-image_w = 400 # 변경할 이미지 사이즈
-image_h = 400
+image_w = 600 # 변경할 이미지 사이즈
+image_h = 600
 pixels = image_h * image_w * 3 
 X = [] # 전처리한 이미지를 집어넣을 리스트
 filenames = [] # 분류할 자세 이름 리스트
